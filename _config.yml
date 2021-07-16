@@ -1,11 +1,11 @@
 # Site settings
-title: DògOverflow
-SEOTitle: DògOverflow Blog
+title: CätOverflow
+SEOTitle: CätOverflow Blog
 header-img: img/home-bg.jpg
-email: null
-description: "I'm a Turing dog"
-keyword: "Turing, SUSTech, AI"
-url: "https://matthewleng2002.github.io"              # your host, for absolute URL
+email: hezean@vip.qq.com
+description: "无论什么时候，都要看着前方，满怀希望就会所向披靡。"
+keyword: "CätOverflow, Chris, SUSTech, AI"
+url: "https://hezean.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -15,10 +15,10 @@ future: true
 RSS: false
 # weibo_username:     chris
 # zhihu_username:     chris
-github_username:    matthewleng2002
+github_username:    hezean
 # twitter_username:   chris
 # facebook_username:  chris
-# linkedin_username:  chris-ho-295143215
+linkedin_username:  chris-ho-295143215
 
 
 
@@ -78,7 +78,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Matthew, SUSTech UG student in TURING CLASS"
+sidebar-about-description: "Chris, SUSTech UG student"
 sidebar-avatar: /img/avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
