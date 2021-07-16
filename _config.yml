@@ -3,9 +3,9 @@ title: CätOverflow
 SEOTitle: CätOverflow Blog
 header-img: img/home-bg.jpg
 email: hezean@vip.qq.com
-description: "无论什么时候，都要看着前方，满怀希望就会所向披靡"
+description: "无论什么时候，都要看着前方，满怀希望就会所向披靡。"
 keyword: "CätOverflow, Chris, SUSTech, AI"
-url: "https://hezean.github.io"
+url: "https://hezean.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,12 +13,12 @@ future: true
 
 # SNS settings
 RSS: false
+# weibo_username:     chris
+# zhihu_username:     chris
 github_username:    hezean
-#weibo_username:     null
-#zhihu_username:     null
-#twitter_username:   null
-#facebook_username:  null
-#linkedin_username:  firstname-lastname-idxxxx
+# twitter_username:   chris
+# facebook_username:  chris
+linkedin_username:  chris-ho-295143215
 
 
 
@@ -27,10 +27,10 @@ github_username:    hezean
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN  
+timezone: CN  
 
 
 
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-# disqus_username: chris
+disqus_username: null
 
 # Netease settings
 netease_comment: false
@@ -71,9 +71,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-
-# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-# ga_domain: huangxuan.me
+# ga_track_id: 'UA-0'            # Format: UA-xxxxxx-xx
+# ga_domain: null.io
 
 
 
@@ -102,14 +101,9 @@ page-mathjax: false
 
 
 # Friends
-#friends: [
-#    {
-#        title: "Matthew",
-#        href: "https://apple.cn"
-#    }
-#    ,
-#    {
-#        title: "null",
-#        href: "?"
-#    }
-#]
+# friends: [
+#     {
+#         title: "Matthew",
+#         href: "http://"
+#     }    
+# ]

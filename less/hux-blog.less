@@ -11,7 +11,9 @@
 body {
   .sans-serif;
   font-size: 16px;
+  // Hux mpdify to 16px (Mobile First), and increase to 20px while 768+ width
   color: @gray-dark;
+  //-webkit-user-select:text; //对于 Blog 还是先不开启这句。
   overflow-x: hidden;
 
   text-rendering: auto;
@@ -122,6 +124,7 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
+// add by Hux
 pre,
 .table-responsive {
   // sometimes you should use vendor-feature.
@@ -247,6 +250,7 @@ samp {
       margin-top: 20px;
     }
   }
+  // V1.6 Hux display title by default.
   .pager li {
     width: 48%;
     &.next {
@@ -291,6 +295,10 @@ samp {
     border-radius: 2px;
     width: 170px;
   }
+  /**
+   * Animation
+   * HuxBlog-Navbar using genuine Material Design Animation
+   */
   #huxblog_navbar {
     /**
      * Sharable code and 'out' function

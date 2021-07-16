@@ -1,11 +1,3 @@
-/* ===========================================================
- * sw.js
- * ===========================================================
- * Copyright 2016 @huxpro
- * Licensed under Apache 2.0
- * service worker scripting
- * ========================================================== */
-
 // CACHE_NAMESPACE
 // CacheStorage is shared between all sites under same domain.
 // A namespace can prevent potential name conflicts and mis-deletion.
@@ -17,16 +9,13 @@ const PRECACHE_LIST = [
   "./offline.html",
   "./js/jquery.min.js",
   "./js/bootstrap.min.js",
-  "./js/catoverflow.min.js",
+  "./js/hux-blog.min.js",
   "./js/snackbar.js",
   "./img/avatar.jpg",
   "./img/home-bg.jpg",
   "./img/404-bg.jpg",
-  "./css/cof.min.css",
+  "./css/hux-blog.min.css",
   "./css/bootstrap.min.css"
-  // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css",
-  // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",
-  // "//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"
 ]
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
